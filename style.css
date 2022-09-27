@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 650px;
+    margin: 5rem auto;
+    gap: 35px;
+}
+
+div {
+    border-radius: 1rem;
+    align-self: center;
+    justify-self: center;
+    border: 3px solid gray;
+    box-shadow: 0 4px 6px gray;
+}
+
+.badge-element {
+    background-color: darkgray;
+    height: 100px;
+    width: 100px;
+}
+
+.gansito {
+    background-image: url(https://i.ytimg.com/vi/xYe4HAcX83w/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.redpill {
+    background-image: url(https://images-platform.99static.com/8EZuGqq-N_XXo3t6XKgsV9pK4Ko=/500x500/top/smart/99designs-contests-attachments/3/3250/attachment_3250266);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.shuriken {
+    background-image: url(https://cf.shopee.com.mx/file/cc5b021d278f053d4476bd2587d80058);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bombahumo {
+    background-image: url(https://i0.wp.com/freepreset.net/wp-content/uploads/2020/03/1583564229_445_Smoke-Bomb-Photography-The-Essential-Guide-for-Beginners.jpeg?w=936&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.naruto {
+    background-image: url(https://pbs.twimg.com/media/DKRhkYXXoAU10vN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mono {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7qgEasej_SGS5LbDnaJu_3-f-y6nsR4t6WeW7nS-QQqvtggwuv_bvV5Qm33V-GreyVs8&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rafa {
+    background-image: url(https://i.ibb.co/Wp4yYqZ/276208510-10161880841157942-6334512396435623905-n.jpg);
+    background-size: cover;
+    grid-row: span 2;
+    grid-column: span 3;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
