@@ -103,8 +103,8 @@ div {
     .rafa {
         grid-row: 2 / span 2;
         grid-column: 2/span 2;
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border-radius: 1.5rem;
     }
 }
