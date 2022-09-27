@@ -26,6 +26,12 @@ div {
     width: 100px;
 }
 
+.badge-element:hover {
+    border-color: goldenrod;
+    cursor: pointer;
+    box-shadow: 0 8px 10px black;
+}
+
 .gansito {
     background-image: url(https://i.ytimg.com/vi/xYe4HAcX83w/maxresdefault.jpg);
     background-size: cover;
